@@ -1,0 +1,86 @@
+
+/* AMIGOS*/
+
+
+.formul{
+    padding: 10px;
+}
+
+.encabezado{
+    
+    display: block;
+    width: 200px;
+    margin: 14px 0 0 0;
+    background-color: rgb(72, 144, 202);
+    text-align: center;
+    border: 1px solid rgb(198, 223, 225);
+    translate: 10px;
+    color: rgb(255, 255, 255);
+}
+
+.encabezado:hover{
+    background-color: rgba(0, 0, 0, 0.943);
+    cursor: pointer;
+}
+
+.componentes{
+    
+    border: 1px solid rgb(0, 64, 214);
+    border: 1px solid rgba(12, 245, 0, 0.797);
+    width: 200px;
+    text-align: center;
+    z-index: 1;
+    position: absolute;
+    translate: 10px;
+    
+}
+
+.ok{
+    justify-content: center;
+    background-color: rgba(18, 235, 101, 0.6);
+    display: flex;
+    
+}
+
+.componentes a:hover{
+    background-color: rgba(49, 226, 253, 0.596);
+    border-color: blueviolet;
+}
+
+
+.izquierda{
+    display: flex;
+    
+}
+
+.pro:active{
+
+color: rgb(24, 193, 187);
+}
+
+header {
+    position: fixed;
+    top: 0px;
+    z-index: 100;
+    width: 100%;
+  }
+  
+body{
+    padding-top: 5cm; /* ajusta el valor según la altura de tu header */
+}
+
+.luz{
+    
+    align-items: center;
+    margin-left: 2px;
+}
+
+.fa-adjust{
+    color: black;
+}
+
+
+
+  
+
+
